@@ -21,3 +21,7 @@ replicas:
 
 resources:
 - ../../base/
+
+patchesStrategicMerge:
+- configmap.yaml
+- deployment.yaml
